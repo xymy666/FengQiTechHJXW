@@ -1,13 +1,14 @@
 HJGSFDJ: #黑金刚石发电机
-  item_group: FQ_wp
+  item_group: FQ_pffdj
   item:
-    name: "&b&l黑金刚石&7发电机"
+    name: "&b&l黑金刚石&#80ffff发&#9bc8ff电&#b692ff机"
     material: GILDED_BLACKSTONE
     lore:
+     - "&7放入&b&l黑金刚石&7以发电"
      - ""
-     - "&8⇨ &e⚡ &718000 J 可存储"
+     - "&8⇨ &e⚡ &7180000 J 可存储"
      - "&8⇨ &e⚡ &71800 J/s"
-  capacity: 1800000
+  capacity: 180000
   production: 900
   input: [11]
   output: [15]
