@@ -3,12 +3,23 @@ lyen:
   item_group: FQ_gx
   placeable: false
   item:
-    name: "&blyen"
+    name: "&#80ffffl&#92dbffy&#a4b7ffe&#b692ffn"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/1bf27f944aac9ea96d9feee47d9f293370f58e5f5342d0a801cbea3ec23c2b49
     lore:
      - "&7&o作者"
      - ""
+lengshang:
+  lateInit: false
+  item_group: FQ_gx
+  placeable: false
+  item:
+    name: "&#A987EFl&#AD8BECe&#B28FE9n&#B693E5g&#BA98E2s&#BE9CDFh&#C3A0DCa&#C7A4D8n&#CBA8D5g"
+    material_type: skull_hash
+    material: 20b13024045c5c0d6d2afb059ae9660f7ad020fd895bb75f64fcc02ddb07d327
+    lore:
+     - "&#A987EF&o虽&#B08EEA&o未&#B794E5&o直&#BD9BDF&o接&#C4A1DA&o参&#CBA8D5&o与"
+     - "&#A987EF&o但&#AD8BEC&o也&#B28FE9&o指&#B693E5&o导&#BA98E2&o了&#BE9CDF&o部&#C3A0DC&o分&#C7A4D8&o编&#CBA8D5&o写"
 
 Dying:
   lateInit: false
@@ -21,7 +32,7 @@ Dying:
     lore:
      - "&7&o审核员"
      - ""
-     
+
 XF:
   lateInit: false
   item_group: FQ_gx
@@ -39,7 +50,7 @@ FD: #风锭
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&b风&e锭"
+    name: "&#80ffff风&#9bc9ff锭"
     material_type: skull_hash
     material: http://textures.minecraft.net/texture/3c76df4c912d455db47d7628dd21de70d51c55edcafa36278ee8445f62db622f
   recipe_type: MAGIC_WORKBENCH
@@ -78,7 +89,7 @@ JQHX: #机器核心
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&b机器&6核心"
+    name: "&#80ffff机&#92dbff器&#a4b7ff核&#b692ff心"
     lore:
      - "&7机器组件"
     material: LIGHT_GRAY_STAINED_GLASS
@@ -117,8 +128,10 @@ CHJSD: #磁化金属锭
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&4磁化金属锭"
+    name: "&#80ffff磁&#8ee4ff化&#9bc9ff金&#a9adff属&#b692ff锭"
     material: NETHER_BRICK
+    lore:
+      - "&7被包裹着的磁铁"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -154,7 +167,7 @@ JXDLB: #机械电路版
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&e机械电路板"
+    name: "&#80ffff机&#8be9ff械&#96d3ff电&#a0beff路&#aba8ff板"
     lore:
      - "&7机器组件"
     material: GOLD_INGOT
@@ -193,7 +206,7 @@ JXDLJH: #机械电路集合
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&f机械电路集合"
+    name: "&#80ffff机&#8be9ff械&#96d3ff电&#a0beff路&#aba8ff集&#b692ff合"
     lore:
      - "&7机器组件"
     material: IRON_BLOCK
@@ -301,7 +314,7 @@ RZX: #人造线
   item_group: FQ_cl
   placeable: false
   item:
-    name: "&8人造线"
+    name: "&#80ffff人&#9bc9ff造&#b692ff线"
     material: STRING
     lore:
      - "&7由木头制成"
@@ -312,14 +325,25 @@ RZX: #人造线
     5:
       material: STICK
 
+SM:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&#80ffff申&#9bc9ff明"
+    material: PAPER
+    lore:
+     - ""
+     - "&#80ffff部&#87f1ff分&#8ee4ff借&#94d6ff鉴&#9bc9ff了&#a2bbff其&#a9adff他&#afa0ff附&#b692ff属"
+     - "&#80ffff如&#92dbff有&#a4b6ff侵&#b692ff权"
+     - "&#80ffff请&#8ee4ff联&#9bc9ff系&#a9adff作&#b692ff者"
 20251130:
   lateInit: false
   item_group: FQ_sm
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72025/11/30"
      - "&7&o1.更新下界岩转换器"
@@ -331,8 +355,7 @@ RZX: #人造线
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72025/12/20"
      - "&7&o1.更新定向制粉机"
@@ -344,8 +367,7 @@ RZX: #人造线
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/01/02"
      - "&7&o祝各位2026新年快乐!"
@@ -358,39 +380,120 @@ RZX: #人造线
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/01/03"
-     - ""
      - "&7&o1.更改 &2核电作物&7种植加速机 &7&o错误介绍"
      - "&7&o2.优化 &2核电作物&7种植加速机 &7&o机器菜单"
      - "&7&o3.删除 下界岩转换器II-IV"
      - "&7&o4.优化 下界岩转换器 合成配方"
      - "&7&o5.更新 建材包I"
 
-ZCBI: #建材包I
+ZCB: #建材包
   lateInit: false
   item_group: FQ_cl
   placeable: true
   item:
-    name: "&8建材包I"
+    name: "&#80ffff建&#9bc9ff材&#b692ff包"
     material_type: saveditem
     material: ZCBI
     lore:
      - "&7方便建筑师"
-  
+
 20260124:
   lateInit: false
   item_group: FQ_sm
   placeable: false
   item:
     name: "&f说明"
-    material_type: skull_hash
-    material: http://textures.minecraft.net/texture/740a55898e9181856ce5db3ede7f01e73939b55a1809063f45560e44af34a660
+    material: PAPER
     lore:
      - "&72026/01/24"
-     - ""
      - "&7&o1.更改 &2核电作物&7种植加速机 &7&o产物时间"
      - "&7&o2.优化 &6燧石&7一体机 &7&o合成配方"
-     - "&7&o3.将 &6全部头颅 &7改为 &6方块材质"
+     - "&7&o3.将 &6全部机器头颅 &7改为 &6方块材质"
+
+20260209:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/09"
+     - "&7&o1.加入对应机器的lore(简介)"
+     - "&7&o2.优化 &7下界岩转换仪 &7&o合成配方"
+
+20260213:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/13"
+     - "&7&o1.优化原有太阳能发电机"
+     - "&7&o2.新增 &#80ffff机&#92dbff器&#a4b7ff增&#b692ff强 &7&o物品组"
+     - "&7&o3.将部分名称更换为 &#80ffff渐&#9bc9ff变&#b692ff色"
+20260214:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/13"
+     - "&7&o1.更改 &b&l黑金刚石&7发电机 &7&o错误电容量"
+1: #占位
+  lateInit: false
+  item_group: FQ_1
+  placeable: false
+  item:
+    name: "1"
+    material: PAPER
+2: #占位
+  lateInit: false
+  item_group: FQ_2
+  placeable: false
+  item:
+    name: "2"
+    material: PAPER
+3: #占位
+  lateInit: false
+  item_group: FQ_3
+  placeable: false
+  item:
+    name: "1"
+    material: PAPER
+
+LM_SM: #留名_说明
+  lateInit: false
+  item_group: FQ_lmj
+  placeable: false
+  item:
+    name: '&c留名集特别说明'
+    lore: 
+    - '&6想登上留名集的可以Q我'
+    - '&6留名没有任何要求，想上就给上'
+    - '&6欢迎各位来留下属于自己的名字'
+    - '&6有正版皮肤的可以制作自己的头颅哦'
+    - '&6没有正版号也没关系，可以选择原版物品'
+    - "&#80FFFF&o(&#84F7FF&o文&#88EFFF&o案&#8CE8FF&oc&#8FE0FF&oo&#93D8FF&op&#97D0FF&oy&#9BC9FF&o自&#9FC1FF&o-&#A3B9FF&o &#A7B1FF&o冷&#AAA9FF&o殇&#AEA2FF&o科&#B29AFF&o技&#B692FF&o)"
+    material: PALE_OAK_HANGING_SIGN
+20260222:
+  lateInit: false
+  item_group: FQ_sm
+  placeable: false
+  item:
+    name: "&f说明"
+    material: PAPER
+    lore:
+     - "&72026/02/22"
+     - "&#80FFFF&o大&#9BC9FF&o更&#B692FF&o新"
+     - ""
+     - "&7&o1.更改 &#80FFFF&o风&#92DBFF&o起&#A4B6FF&o科&#B692FF&o技 &7&o粘液书界面"
+     - "&7&o2.增加 &#80FFFF留&#9BC9FF名&#B692FF集"
+     - "&7&o3.将 物品组 细分开"
